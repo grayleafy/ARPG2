@@ -1,0 +1,511 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.11f1c2 (2c7757f00bfe) revision 2914135'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Professional' Language: 'zh' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1c2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/grayleaf/unity/No.4 After Winter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+6697
+Successfully changed project path to: E:/grayleaf/unity/No.4 After Winter
+E:/grayleaf/unity/No.4 After Winter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 228.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1c2 (2c7757f00bfe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/grayleaf/unity/No.4 After Winter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P2000 (ID=0x1c30)
+    Vendor:   NVIDIA
+    VRAM:     5009 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011606 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 212.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1011ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (720ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (213ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014119 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\grayleaf\unity\No.4 After Winter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\grayleaf\unity\No.4 After Winter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 209.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1838ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1543ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (930ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (209ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (458ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5388 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (1.2 MB). Loaded Objects now: 5848.
+Memory consumption went from 311.3 MB to 310.2 MB.
+Total: 9.097600 ms (FindLiveObjects: 0.759800 ms CreateObjectMapping: 0.780400 ms MarkObjects: 6.373300 ms  DeleteObjects: 1.182300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 323973.269104 seconds.
+  path: Assets/Prefabs/Characters/冰枪.prefab
+  artifactKey: Guid(f427f28b1899b494882732ccc7a7cad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/冰枪.prefab using Guid(f427f28b1899b494882732ccc7a7cad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecce3d75e2e5a4c53dc6750c5eb0ee55') in 1.609656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.649000 seconds.
+  path: Assets/Animator/Animations/Locomotion/straight_sword_oh_idle_01.anim
+  artifactKey: Guid(baa910d46ed36f74f87088441a6b3f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/straight_sword_oh_idle_01.anim using Guid(baa910d46ed36f74f87088441a6b3f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4f28224079cbe12e727a483dbed1f4') in 0.015432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_B.anim
+  artifactKey: Guid(6a9c8da20f521014cb026380a0daa110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_B.anim using Guid(6a9c8da20f521014cb026380a0daa110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9d5d70c7a60e4665ad8dd3ebe953cf') in 0.016269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.105684 seconds.
+  path: Assets/外部资产/PolygonDarkFantasy/Models/Capes.fbx
+  artifactKey: Guid(8ec8ddc87a6707b42acc9ddd8745a2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonDarkFantasy/Models/Capes.fbx using Guid(8ec8ddc87a6707b42acc9ddd8745a2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd9e8d2f63affc4f92c3561a0545218') in 0.238629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.175082 seconds.
+  path: Assets/外部资产/PolygonDarkFantasy/Textures/Misc/PolygonDarkFantasy_Metallic_01.tga
+  artifactKey: Guid(56cba0ea1d76d384693d18057e1b7af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonDarkFantasy/Textures/Misc/PolygonDarkFantasy_Metallic_01.tga using Guid(56cba0ea1d76d384693d18057e1b7af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b09275973185d24f47a150aa24e1ba') in 0.032393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003642 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_BL.anim
+  artifactKey: Guid(1bf379b785be279499b6366362209fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_BL.anim using Guid(1bf379b785be279499b6366362209fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f2f462c23f1481f623b19fe6af97a1') in 0.016172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002609 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_FR.anim
+  artifactKey: Guid(568fdefc7ab26ca4b81d7d5e1d3cb7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_FR.anim using Guid(568fdefc7ab26ca4b81d7d5e1d3cb7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e4f9cf548b38685c6c2a897168f4b0') in 0.018835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056188 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Hair_01.png
+  artifactKey: Guid(724afb924514bc14d9d8fcc045e8ed4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Hair_01.png using Guid(724afb924514bc14d9d8fcc045e8ed4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3596d8d55730ce9950fb29e1ec7bc80') in 0.050888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003030 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Materials/FantasyHero.mat
+  artifactKey: Guid(ea128b040f8b0af4c9d2de400aaff30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Materials/FantasyHero.mat using Guid(ea128b040f8b0af4c9d2de400aaff30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079e242734c4b8e63a51b0b45ad590c9') in 0.057803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031251 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Textures/PolygonFantasyHero_Texture_01.png
+  artifactKey: Guid(e599ad2d07d640a49945ec695caacac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Textures/PolygonFantasyHero_Texture_01.png using Guid(e599ad2d07d640a49945ec695caacac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b2e2806b19d6ad44a6c156a8dd988f') in 0.028009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013733 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Metal_02.png
+  artifactKey: Guid(59d30079bf12f254dbd2470a093f97a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Metal_02.png using Guid(59d30079bf12f254dbd2470a093f97a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba45cb4635e64880c23dfbef2071468') in 0.016413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023060 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Leather_01.png
+  artifactKey: Guid(ebf19c917bd322643a829ec6095a2178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Leather_01.png using Guid(ebf19c917bd322643a829ec6095a2178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d17ece6fc4939487102b176c227209b') in 0.016840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004435 seconds.
+  path: Assets/Animator/Animations/Hit/Hit4.anim
+  artifactKey: Guid(e75a7ebee6f39234f8e61d54a2c69dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Hit/Hit4.anim using Guid(e75a7ebee6f39234f8e61d54a2c69dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd885c14d94693baf727ced14848aa501') in 0.042357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012133 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_BodyArt_01.png
+  artifactKey: Guid(b5c72be73bd8cad4394ec40cc22be615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_BodyArt_01.png using Guid(b5c72be73bd8cad4394ec40cc22be615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c7c9c3a3c61315190f5b3ad62f4ff3') in 0.017036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027831 seconds.
+  path: Assets/外部资产/PolygonDarkFantasy/Textures/Emissive/PolygonDarkFantasy_Emissive_01_A.png
+  artifactKey: Guid(06e7a45b7b714ce4daa203114e55d6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonDarkFantasy/Textures/Emissive/PolygonDarkFantasy_Emissive_01_A.png using Guid(06e7a45b7b714ce4daa203114e55d6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252b22522e2597194b9a23a1dfca49b4') in 0.022958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012717 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Metal_01.png
+  artifactKey: Guid(8c6f956b63336ae44ad322451df5a7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Metal_01.png using Guid(8c6f956b63336ae44ad322451df5a7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a606d40b4638d65218ffb5208561fcd9') in 0.016436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078678 seconds.
+  path: Assets/外部资产/PolygonDarkFantasy/Models/Characters.fbx
+  artifactKey: Guid(0dcad412e4df7364880958fbda1ede6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonDarkFantasy/Models/Characters.fbx using Guid(0dcad412e4df7364880958fbda1ede6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7bdc3867f3404d4f014592c246b707') in 0.400575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057225 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_ColorPrimary_01.png
+  artifactKey: Guid(0cbc66454a3a56244affa05554162bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_ColorPrimary_01.png using Guid(0cbc66454a3a56244affa05554162bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0150351dcdc631b796c51cfc5852b4') in 0.016157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021110 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/PolygonFantasyHero_Texture_Mask_03.png
+  artifactKey: Guid(83c8563e287501f4997504c772dd2387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/PolygonFantasyHero_Texture_Mask_03.png using Guid(83c8563e287501f4997504c772dd2387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3132e46f7ca065c84b1797ad6cc4048a') in 0.015903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002511 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_BL.anim
+  artifactKey: Guid(2428a5598018a914f8b8fe4d005b4605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_BL.anim using Guid(2428a5598018a914f8b8fe4d005b4605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61152804ec789c4395b667e73ce36731') in 0.013673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002081 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_FL.anim
+  artifactKey: Guid(94a81d97de4bd2047bafde149147d05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_FL.anim using Guid(94a81d97de4bd2047bafde149147d05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8f20a4c054ed84f92a229a9d82322d') in 0.014462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003681 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_R.anim
+  artifactKey: Guid(f66f540807ae8f04cb34d9c7f07d499c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_R.anim using Guid(f66f540807ae8f04cb34d9c7f07d499c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db04362df7998cd0668712b585fedfc') in 0.013984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035941 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_F.anim
+  artifactKey: Guid(89a5b8f54be841945b35218a70181bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_F.anim using Guid(89a5b8f54be841945b35218a70181bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1da939828648cbca4898e93d92f2e7') in 0.015236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050704 seconds.
+  path: Assets/外部资产/PolygonDarkFantasy/Textures/Misc/PolygonDarkFantasy_Texture_01_Normals.png
+  artifactKey: Guid(2de05214307d17e4a8276713c0e65894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonDarkFantasy/Textures/Misc/PolygonDarkFantasy_Texture_01_Normals.png using Guid(2de05214307d17e4a8276713c0e65894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd166c2527e120129f418056eb279dfaf') in 0.038913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012524 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Stubble_01.png
+  artifactKey: Guid(daa5c40d542aa5b47b3583b6285941ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Stubble_01.png using Guid(daa5c40d542aa5b47b3583b6285941ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae33382bdc7856bf556cc3a445b9392') in 0.016398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018126 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_ColorSecondary_01.png
+  artifactKey: Guid(a3f6d4c76177b704299c630a6bf515f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_ColorSecondary_01.png using Guid(a3f6d4c76177b704299c630a6bf515f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477a4158537e7a85746c85527d7898ac') in 0.019975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013708 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_ColorTertiary_01.png
+  artifactKey: Guid(1830e5fa430137f4185002ea358266a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_ColorTertiary_01.png using Guid(1830e5fa430137f4185002ea358266a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ebdb6514a92a0446b47dc058f37207') in 0.015908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014198 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Skin_01.png
+  artifactKey: Guid(9bf5625bb4be4ec4e9a0bcc009d10ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Skin_01.png using Guid(9bf5625bb4be4ec4e9a0bcc009d10ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078d54a9d19a891c36a2648f86ca6342') in 0.016355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011782 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/PolygonFantasyHero_Texture_Mask_05.png
+  artifactKey: Guid(24b7fe3ac6774f445a118f057e3eaaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/PolygonFantasyHero_Texture_Mask_05.png using Guid(24b7fe3ac6774f445a118f057e3eaaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cff403f700ab1213edc06994a228271') in 0.016773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034091 seconds.
+  path: Assets/外部资产/刀光/Resources/Scripts/For demo scenes/HS_CameraHolder.cs
+  artifactKey: Guid(a586cf93dc19b28488308d7488b8de20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/刀光/Resources/Scripts/For demo scenes/HS_CameraHolder.cs using Guid(a586cf93dc19b28488308d7488b8de20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85958fe9eb0df541ae74b244cb01168') in 0.014076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013274 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/PolygonFantasyHero_Texture_Mask_02.png
+  artifactKey: Guid(f8e518b469cb2bd4c92100e04b7d4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/PolygonFantasyHero_Texture_Mask_02.png using Guid(f8e518b469cb2bd4c92100e04b7d4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e31a0bf69cc8facb7366e33e10926d') in 0.015995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036244 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_F.anim
+  artifactKey: Guid(b359673c582834540a2a0cae9ac67c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_F.anim using Guid(b359673c582834540a2a0cae9ac67c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fb2384bce9cfb97d69b2fff539696c') in 0.013721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013300 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/PolygonFantasyHero_Texture_Mask_04.png
+  artifactKey: Guid(49123ea06040fdb4e86c6fb0b4288c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/PolygonFantasyHero_Texture_Mask_04.png using Guid(49123ea06040fdb4e86c6fb0b4288c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082a6c2a452a1625d189a15f23360a79') in 0.017389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002149 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_B.anim
+  artifactKey: Guid(258830c840ecf7247b9282d46dbd39d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_B.anim using Guid(258830c840ecf7247b9282d46dbd39d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cfcdb9811514befd3ab648c90cc3c9') in 0.013734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002341 seconds.
+  path: Assets/Animator/Animations/Roll.anim
+  artifactKey: Guid(69aa57d16bf3b564496bfc405ff26132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Roll.anim using Guid(69aa57d16bf3b564496bfc405ff26132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc782bf386407736e52ffc0c6beea5b') in 0.031950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064998 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Staff_02.fbx
+  artifactKey: Guid(28c16d6a2f9d0d149a647997134995de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Models/Weapons/SM_Wep_Staff_02.fbx using Guid(28c16d6a2f9d0d149a647997134995de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8bef8bd8714de28da64a727042b769') in 0.024569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004780 seconds.
+  path: Assets/Animator/Animations/Air/Jump.anim
+  artifactKey: Guid(bf8f0229841cf9244976e4810bb14357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Air/Jump.anim using Guid(bf8f0229841cf9244976e4810bb14357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0796263340901231e02a4d65b60f6db9') in 0.044053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001528 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_FL.anim
+  artifactKey: Guid(7293007261e81e848870afbfb259893b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_FL.anim using Guid(7293007261e81e848870afbfb259893b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62df1420dae0c071f5020d9f0d6f9f9a') in 0.013727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024173 seconds.
+  path: Assets/Animator/Animations/Combo/Spear/SpearE.anim
+  artifactKey: Guid(5cd11e42c1bcfa4499305f455368f10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Combo/Spear/SpearE.anim using Guid(5cd11e42c1bcfa4499305f455368f10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80a94d09e7dc8493471188c48ab09ca') in 0.157228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013756 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Scar_01.png
+  artifactKey: Guid(8a1bc2c7e543a3545a87c5593e1bf765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Scar_01.png using Guid(8a1bc2c7e543a3545a87c5593e1bf765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4d965c4030d79ef030fcbffe451456') in 0.018878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023280 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/PolygonFantasyHero_Texture_Mask_01.png
+  artifactKey: Guid(4d2aa66f9d16bf644aeced5c66a39109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/PolygonFantasyHero_Texture_Mask_01.png using Guid(4d2aa66f9d16bf644aeced5c66a39109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b36acc093f0ccae2bb57cf233b2697') in 0.019772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003426 seconds.
+  path: Assets/Animator/Animations/Air/Fall.anim
+  artifactKey: Guid(a5a28f8944f7832498759ba384624d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Air/Fall.anim using Guid(a5a28f8944f7832498759ba384624d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b76cf4ee37ca5662a4e6be4c58ff9c') in 0.018637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002216 seconds.
+  path: Assets/Animator/Animations/Hit/Hit1.anim
+  artifactKey: Guid(e07afe914b3b1a44b9c7ae9c17ffed87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Hit/Hit1.anim using Guid(e07afe914b3b1a44b9c7ae9c17ffed87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d457888b53f4fc91be84389c6817c06') in 0.036771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010502 seconds.
+  path: Assets/Animator/Animations/Hit/Hit3.anim
+  artifactKey: Guid(9a75d668f62c232458ef9aa36adbe4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Hit/Hit3.anim using Guid(9a75d668f62c232458ef9aa36adbe4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1cce3846c537b835de0965dece09c3') in 0.079655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004331 seconds.
+  path: Assets/Animator/Animations/Combo/Spear/SpearCombo4_4_分支.anim
+  artifactKey: Guid(7c50f42c0f9413840866b3fe20fc9bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Combo/Spear/SpearCombo4_4_分支.anim using Guid(7c50f42c0f9413840866b3fe20fc9bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cf9a6df3c943ec172118df33b26007') in 0.105240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044354 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Shaders/POLYGON_CustomCharacters_URP.shadergraph
+  artifactKey: Guid(4a31887e3b64b2d4bbc64351abe099e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Shaders/POLYGON_CustomCharacters_URP.shadergraph using Guid(4a31887e3b64b2d4bbc64351abe099e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58353dd9aecd3e18a159ab08c16f4e10') in 0.010393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002336 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_BR.anim
+  artifactKey: Guid(f529c656095f4484cbc097acd4df4af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_BR.anim using Guid(f529c656095f4484cbc097acd4df4af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0463390f6ab7b111b93761d19688bb') in 0.015161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002762 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_FR.anim
+  artifactKey: Guid(be922591d7eb2c04db688909874e7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_FR.anim using Guid(be922591d7eb2c04db688909874e7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02d026450bc54f171a131144aad00c9') in 0.016407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001581 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_R.anim
+  artifactKey: Guid(fb6df34e4174c9249b1ea0b8668c5fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_R.anim using Guid(fb6df34e4174c9249b1ea0b8668c5fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795133c9a8d6891152b0bbb3e45921b2') in 0.014654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017291 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Scripts/CharacterRandomizer.cs
+  artifactKey: Guid(2cdbfc6c2aec83a41823be033c18ed4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Scripts/CharacterRandomizer.cs using Guid(2cdbfc6c2aec83a41823be033c18ed4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fa7fd1a75b966cf7aac478a4b46ee3') in 0.009366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029147 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Textures/PolygonFantasyHero_Texture_01_A.png
+  artifactKey: Guid(7dd0476daa9e82447856b542d1d238eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Textures/PolygonFantasyHero_Texture_01_A.png using Guid(7dd0476daa9e82447856b542d1d238eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6297d8c4bda9518e4798f627dc467c6b') in 0.034024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002855 seconds.
+  path: Assets/Animator/Animations/Hit/Hit2.anim
+  artifactKey: Guid(361fa33a1e791794e9c79307afabd5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Hit/Hit2.anim using Guid(361fa33a1e791794e9c79307afabd5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1e0ce04b94a264eaf87f8dc4336c5c') in 0.036866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014034 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Leather_02.png
+  artifactKey: Guid(f65b920b34d4fc248a504cef1ed177d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Leather_02.png using Guid(f65b920b34d4fc248a504cef1ed177d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3378a5bc1b9dc5377880bb25ff0cd4b') in 0.018603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052562 seconds.
+  path: Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Metal_03.png
+  artifactKey: Guid(91094db90fa56c74c8a1d41d52b2e566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonFantasyHeroCharacters/Textures/Masks/Old/PolygonFantasyHero_Texture_Mask_Metal_03.png using Guid(91094db90fa56c74c8a1d41d52b2e566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68155051331f5146fcd87e1e35b8ebc2') in 0.017977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003063 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_L.anim
+  artifactKey: Guid(5776dfe238c96af42a641906acb4ad10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_L.anim using Guid(5776dfe238c96af42a641906acb4ad10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0397e5c954e3919563855b833d774f') in 0.014860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001955 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_L.anim
+  artifactKey: Guid(0398824b2a411fd45a41aa440151652b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Run_L.anim using Guid(0398824b2a411fd45a41aa440151652b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fcad7ef49d63943862b45162768f86') in 0.017349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001884 seconds.
+  path: Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_BR.anim
+  artifactKey: Guid(ef30fc61699a06240a6ff3f671372645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Animations/Locomotion/Velocity_8Way_Walk_BR.anim using Guid(ef30fc61699a06240a6ff3f671372645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be254c8e63bc762ca097073b1a0c0fe') in 0.014494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057352 seconds.
+  path: Assets/外部资产/PolygonDarkFantasy/Textures/Alts/PolygonDarkFantasy_Texture_01_A.png
+  artifactKey: Guid(3e059326bb875b240a56b90440e80af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/外部资产/PolygonDarkFantasy/Textures/Alts/PolygonDarkFantasy_Texture_01_A.png using Guid(3e059326bb875b240a56b90440e80af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae4ef2eba656df74d61e1d3fb750290') in 0.039777 seconds 
